@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
@@ -24,6 +25,8 @@ a:hover {
 
 /* Header Kodi */
 header {
+  position: relative;
+  width: 100%;
   background: #face5f;
   color: white;
   padding: 15px 30px;
@@ -108,8 +111,9 @@ nav {
 .carousel-caption {
   border-radius: 4px;
   font-style: normal;
+  font-size: 25px;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -304,7 +308,7 @@ button:hover {
 .form-container {
   flex: 2; /* Yarim kenglik egallaydi */
   min-width: 300px; /* Juda kichiklashib qolmasligi uchun minimum kenglik */
-  max-width: 57%; /* Maksimal yarim kenglik */
+  max-width: 57.3%; /* Maksimal yarim kenglik */
   background-color: #fdf1d1; /* Yengil qum rang */
   padding: 15px;
   border-radius: 5px;
@@ -367,9 +371,10 @@ button:hover {
 
 .video-section iframe {
   width: 100%; /* Iframe kengligini belgilash */
-  height: 300px; /* Balansli balandlik */
-  max-width: 600px; /* Maksimal kenglik (ixtiyoriy) */
+  height: 430px; /* Balansli balandlik */
+  max-width: 620px; /* Maksimal kenglik (ixtiyoriy) */
   border: none; /* Ramka yo‘q qilish */
+  border-radius: 4px;
 }
 
 /* Footer Kodi */
